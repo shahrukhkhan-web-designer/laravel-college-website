@@ -473,11 +473,98 @@ section.showcase {
 
 section.Enquiry2019 {
     position: fixed;
-    top: 16%;
-    right: -400px;
-
-    z-index:101;
+    top: 100px;
+    right: -405px;
+    transition: all .5s ease-in-out;
+    z-index: 999;
 }
+.showForm1 a{
+    background: url(../images/Enquiry_icon.png) no-repeat center left transparent;
+    display: block;
+    width: 46px;
+    height: 110px;
+    float: left;
+    text-indent: -9999em;
+    position: fixed;
+    top: 210px;
+    left: -45px;
+    border-radius: 5px 0px 0px 5px;
+    z-index:999;
+}
+.showFormTag {
+    position: absolute;
+    top: 87px;
+    left: -40px;
+    z-index: 999;
+    transition: all .5s linear;
+}
+.showFormTag::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: -4px;
+    width: 5px;
+    height: 100%;
+    background: #f3f3f3;
+}
+.whatsappCall {
+    position: absolute;
+    top: 0;
+    left: -40px;
+    z-index: 999;
+
+}
+.inCall {
+
+    position: fixed;
+    top: 313px;
+    right: -135px;
+    background: #fff;
+    padding: 8px 5px 10px 5px;
+    margin-left: -3px;
+    max-height: 35px;
+    line-height: 16px;
+    display: block;
+    transition:all .4s ease-in-out;
+    z-index:999;
+
+}
+.inCall a {
+    margin-left: 33px;
+    color: #000;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: .1px;
+}
+.inCall2 a {
+    margin-left: 33px;
+    color: #000;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: .1px;
+}
+.callingCall {
+    position: absolute;
+    top: 0;
+    left: -40px;
+    z-index: 999;
+
+}
+.inCall2 {
+
+    position: fixed;
+    top: 351px;
+    right: -135px;
+    background: #fff;
+    padding: 8px 5px 10px 5px;
+    margin-left: -3px;
+    max-height: 35px;
+    line-height: 16px;
+    display: block;
+    transition:all .4s ease-in-out;
+    z-index:999;
+}
+
 section.Enquiry2019 .form2019 {
     width: 400px;
     padding: 20px;
@@ -489,43 +576,8 @@ section.Enquiry2019 .form2019 {
 .form2019 textarea {
     padding-left: 25px;
 }
-.showFormTag {
-    position: absolute;
-    top: 16%;
-    left: -36px;
 
-}
-.whatsappCall {
-    position: fixed;
-    top: 43%;
-    right: -115px;
-    z-index: 100;
-}
-.callingCall {
-    position: fixed;
-    top: 48%;
-    margin-top: 7px;
-    right: -115px;
-    z-index: 100;
-}
-.showWhatsapp a {
-    text-decoration: none;
-}
-.whatsappCall img {
-    display: inline-block;
-}
-.whatsappCall .showWhatsapp, .callingCall .showWhatsapp {
-    display: inline-block;
-    background: #fff;
 
-    margin-top:5px;
-    height: 34px;
-    text-align: center;
-    width: 115px;
-    margin-left: -4px;
-    letter-spacing: 1.4px;
-    line-height: 32px;
-}
 .whatsappCall .d-iB , .callingCall .d-iB{
     display: inline-block;
 }
@@ -536,6 +588,9 @@ section.offeringCourses {
 section.offeringCourses  .offerBoxes {
     border-right: 3px solid #bbc;
     padding:8px;
+}
+section.offeringCourses .br-md-0 {
+    border-right:0;
 }
 section.offeringCourses .offerBoxes h3 {
     font-size: 18px;
@@ -648,12 +703,12 @@ section.universities {
     height:100%;
 }
 .universityImage .universityLogo {
-    position:absolute;
-    left:30px;
-    bottom: -42px;
+    position: absolute;
+    left: 6px;
+    bottom: -40px;
 }
 .universityImage .universityLogo h3 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     color: #fff;
     display: inline-block;
@@ -668,7 +723,7 @@ section.universities {
 }
 .universityFooter {
     background:#fff;
-    padding-top: 45px;
+    padding-top: 20px;
 }
 .w-50 {
     width:50%;
@@ -702,12 +757,14 @@ section.niuBanner {
     background:url(../image/slider2.jpg) no-repeat center ;
     background-size:cover;
     position:relative;
+    min-height: 400px;
 
 }
 section.glocalBanner {
     background:url(../image/slider3.jpg) no-repeat center ;
     background-size:cover;
     position:relative;
+    min-height: 400px;
 }
 .niuBannerContent .overlay {
     z-index: 1;
@@ -716,9 +773,11 @@ section.glocalBanner {
     margin-bottom: -15px;
 }
 .niuBannerContent {
-    position:relative;
+    position:absolute;
     padding-top: 30px;
     z-index: 101;
+    bottom: 5px;
+    left:25px;
 
 }
 .niuBannerContent img {
@@ -1268,7 +1327,7 @@ footer.blueSection .footerCommonBox p {
     max-height:600px;
 }
 .carousel-item img {
-    height:350px;
+    height:400px;
 }
 
 
@@ -1431,6 +1490,15 @@ main.programTAb {
     font-weight: 400;
     text-align: justify;
 }
+
+
+.invalidField {
+    color:red;
+}
+.invalidField:last-child {
+    margin-top: -10px;
+}
+
 /* Responsive */
 
 
@@ -1439,7 +1507,11 @@ main.programTAb {
     section.offeringCourses .offerBoxes h3 {
         font-size:16px;
     }
-
+    .universityImage .universityLogo {
+        position: absolute;
+        left: 6px;
+        bottom: -5px;
+    }
 
     a.mail-link {
         padding-right:0;
@@ -1455,9 +1527,24 @@ main.programTAb {
     }
 }
 @media(max-width:767px){
-
+    .universityImage {
+        max-height: 236px;
+        position: relative;
+        min-height: 175px;
+    }
+    .universityImage .universityLogo {
+        position: absolute;
+        left: 6px;
+        bottom: -5px;
+    }
+    section.offeringCourses .br-md-0 {
+        border-right:3px solid #bbc;
+    }
+    .universityFooter {
+        padding-top:0px;
+    }
     #myModal {
-        top: 25%!important;
+       top: 14%!important;
     }
     .showcase {
         max-height: 450px;
@@ -1466,7 +1553,7 @@ main.programTAb {
         max-height: 100%;;
     }
     section.offeringCourses {
-        margin-top: 90px;
+
     }
     #mainNav {
         display: none;
@@ -1557,6 +1644,12 @@ main.programTAb {
         color: #f1f1f1;
     }
 
+    .universityImage .universityLogo {
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+    }
+
     .sidenav .closebtn {
         position: absolute;
         position: absolute;
@@ -1564,6 +1657,10 @@ main.programTAb {
         right: 0px;
         font-size: 36px;
     }
+    a.applyUni, a.viewUni {
+        font-size:14px;
+    }
+
 
     #main {
         transition: margin-left .5s;
@@ -1639,29 +1736,13 @@ main.programTAb {
 
 
 @media(max-height: 600px) {
-    .callingCall {
-        top:50%;
-    }
-.whatsappCall {
-    top: 45%;
-}
+
 }
 @media (max-height: 570px){
-    .callingCall {
-        top: 53%;
-    }
-    .whatsappCall {
-        top: 47%;
-        
-    }
+
 }
 @media (max-height: 400px) and (max-width:480px) {
-    .callingCall {
-        top: 58%;
-    }
-    .whatsappCall {
-        top: 50%;
-    }
+
 }
 
 

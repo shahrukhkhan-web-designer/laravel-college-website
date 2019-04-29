@@ -1268,12 +1268,14 @@
 
                     </div>
                 </div>
+
+            </div>
                 <div class="col-md-3">
                     <div class="applyDiv">
                         <a href="javascript:void(0)"  data-target="#myModal" data-toggle="modal" class="applyNow">Apply Now</a>
                     </div>
                 </div>
-            </div>
+        </div>
         </div>
     </section>
 @endsection

@@ -46,7 +46,6 @@ $(document).ready(function() {
 
     $('#enquiry-form').on('submit', function (e) {
 
-        e.preventDefault();
         $.ajax({
 
             type: "POST",
@@ -58,15 +57,70 @@ $(document).ready(function() {
                 if (data.errors) {
                     if (data.errors.hasOwnProperty('email')){
 
-                        $('input[name="email"]').addClass('error-border');
+                        $('input[id="a-email"]').addClass('error-border');
 
                     }
                     if (data.errors.hasOwnProperty('phone')){
-                        $('input[name="phone"]').addClass('error-border');
+                        $('input[id="a-phone"]').addClass('error-border');
 
                     }
                     if (data.errors.hasOwnProperty('name')){
-                        $('input[name="name"]').addClass('error-border');
+                        $('input[id="a-name"]').addClass('error-border');
+                    }
+
+                }else {
+
+                    $('#success').css('display','block');
+                    $("input[type=text],input[type=email],input[type=phone], textarea,select").val("");
+                }
+
+            },
+            error: function (data) {
+
+            }
+
+
+        });
+    });
+
+
+
+
+
+
+
+
+    $('#feedback-form').on('submit', function (e) {
+
+
+
+        e.preventDefault();
+        $.ajax({
+
+            type: "POST",
+            url: '/feedback-form',
+            data: $(this).serialize(),
+            dataType: 'json',
+            success: function (data) {
+
+
+                if (data.errors) {
+                    if (data.errors.hasOwnProperty('email')){
+
+                        $('input[id="a-email"]').addClass('error-border');
+
+                    }
+
+                    if (data.errors.hasOwnProperty('phone')){
+                        $('input[id="a-phone"]').addClass('error-border');
+
+                    } else {
+                        $('input[id="a-phone"]').removeClass('error-border');
+                    }
+                    if (data.errors.hasOwnProperty('name')){
+                        $('input[id="a-name"]').addClass('error-border');
+                    } else {
+                        $('input[id="a-name"]').removeClass('error-border');
                     }
 
                 }else {
@@ -98,33 +152,40 @@ $(document).ready(function() {
 });
 // When the user clicks anywhere outside of the modal, close it
 
+$('.EnquiryShow').click(function(){
+    if($('section.Enquiry2019').css('right')=='0px'){
 
-// $('.EnquiryShow').click(function(){
-//     if($('section.Enquiry2019').css('right')=='0px'){
-//         $('section.Enquiry2019').css('right','-400px');
-//
-//     } else {
-//         $('section.Enquiry2019').css('right','0px');
-//     }
-//
-//
-// });
-//
-// $('.whatsappButton').click(function(){
-//     if($('.whatsappCall').css('right')=='-115px'){
-//         $('.whatsappCall').css('right','0px');
-//
-//     }
-//     else {
-//         $('.whatsappCall').css('right','-115px');
-//     }
-// });
-// $('.callingButton').click(function(){
-//     if($('.callingCall').css('right')=='-115px'){
-//         $('.callingCall').css('right','0px');
-//
-//     }
-//     else {
-//         $('.callingCall').css('right','-115px');
-//     }
-// });
+        $('section.Enquiry2019').css('right','-405px');
+
+
+    } else {
+        $('section.Enquiry2019').css('right','0px');
+
+    }
+
+
+});
+
+$('.whatsappButton').click(function(){
+    if($('.inCall').css('right')=='-135px'){
+
+
+        $('.inCall').css('right','0px');
+
+
+    }
+    else {
+        $('.inCall').css('right','-135px');
+
+    }
+});
+$('.callingButton').click(function(){
+    if($('.inCall2').css('right')=='-135px'){
+        $('.inCall2').css('right', '0');
+
+    }
+    else {
+        $('.inCall2').css('right','-135px');
+
+    }
+});

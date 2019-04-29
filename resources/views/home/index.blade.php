@@ -9,13 +9,13 @@
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+{{--                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>--}}
             </ol>
             <div class="carousel-inner">
+{{--                <div class="carousel-item active">--}}
+{{--                    <img class="d-block w-100" src="image/newImage/banner2.jpg" alt="First slide">--}}
+{{--                </div>--}}
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="image/newImage/banner2.jpg" alt="First slide">
-                </div>
-                <div class="carousel-item">
                     <img class="d-block w-100" src="image/slider2.jpg" alt="Second slide">
                 </div>
                 <div class="carousel-item">
@@ -84,7 +84,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <div class="offerBoxes" >
+                    <div class="offerBoxes br-md-0" >
                         <div class="row">
                             <div class="col-4">
                                 <img src="image/learning-icon.png" alt="">

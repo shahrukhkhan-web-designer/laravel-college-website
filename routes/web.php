@@ -28,7 +28,7 @@ Route::get('terms-and-conditions','HomeController@termsConditions');
 Route::get('privacy-policy','HomeController@privacy');
 Route::get('feedback','HomeController@feedback');
 Route::post('enquiry-form','AjaxController@EnquiryForm');
-
+Route::post('admission-form','AdminController@SaveAdmission');
 
 
 

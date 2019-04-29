@@ -7,7 +7,7 @@
                        <img src="image/Vinayana-white-Logo.png" alt="">
                    </div>
                     <div class="enquiryLinks pb-20">
-                        <a href="tel:+919999127629"><i class="fa fa-phone"></i>+91 9999127629</a>
+                        <a href="tel:+919999127633"><i class="fa fa-phone"></i>+91 9999127633</a>
                         <a href="mailto:info@vinayana.in"><i class="fa fa-envelope"></i>info@vinayana.in</a>
                     </div>
 
@@ -47,7 +47,7 @@
                         <li><a href="about-us">Who we are</a></li>
                         <li><a href="terms-and-conditions">Terms and Conditions</a></li>
                         <li><a href="privacy-policy">Privacy Policy</a></li>
-                        <li><a href="programs">Programs</a></li>
+{{--                        <li><a href="programs">Programs</a></li>--}}
                     </ul>
                 </div>
             </div>
@@ -74,26 +74,26 @@
 
     <section class="Enquiry2019">
         <div class="form2019 mobileEnquiry">
-            <form action="">
-
+            <form id="enquire__2019"  method="post" >
+                <input type="hidden" value="{{csrf_token()}}" name="token1">
                 <div class="inner-addon left-addon">
                     <i class="fa fa-user"></i>
-                    <input type="text" class="form-control" placeholder="Name" />
+                    <input type="text" name="name" id="e-name" class="form-control" placeholder="Name" />
                 </div>
 
                 <div class="inner-addon left-addon">
                     <i class="fa fa-envelope"></i>
-                    <input type="email" class="form-control" placeholder="Email" />
+                    <input type="email" id="e-email" name="email" class="form-control" placeholder="Email" />
                 </div>
 
 
                 <div class="inner-addon left-addon">
                     <i class="fa fa-phone"></i>
-                    <input type="text" class="form-control" placeholder="Phone" />
+                    <input type="text" id="e-phone" name="phone" class="form-control" placeholder="Phone" />
                 </div>
                 <div class="inner-addon left-addon">
                     <i class="fa fa-comments-o"></i>
-                    <textarea  name="" id="" rows="4" placeholder="Message" class="form-control"></textarea>
+                    <textarea  name="" id="e-messages" rows="4" placeholder="Message" class="form-control"></textarea>
 
                 </div>
 
@@ -103,73 +103,60 @@
 
             <div>
 
+        </div>
 
 
-            <div class="showFormTag">
-                <div class="w-35">
-                    <a href="javascript:void(0);" class="EnquiryShow"><img src="image/Enquiry icon.png" alt=""></a>
-                </div>
 
+
+
+
+
+
+        </div>
+        <div class="showFormTag">
+            <div class="w-35">
+                <a href="javascript:void(0);" class="EnquiryShow"><img src="image/Enquiry_icon.png" alt=""></a>
             </div>
         </div>
-
-
-
-
-
-    <div class="whatsappCall">
-        <div class="w-35 d-iB">
-            <a href="javascript:void(0);" class="whatsappButton">
-                <img src="image/whatsapp icon.png" alt="">
-            </a>
-        </div>
-        <div class="showWhatsapp">
-            <a href="tel:+1">+9184874744</a>
-        </div>
-    </div>
-
-    <div class="callingCall">
-        <div class="w-35 d-iB">
-            <a href="javascript:void(0);" class="callingButton">
-                <img src="image/Call icon.png" alt="">
-            </a>
-        </div>
-        <div class="showWhatsapp">
-            <a href="tel:+1">+9184874744</a>
-        </div>
-    </div>
-        </div>
-
     </section>
+
+
+    <div class="d-iB inCall">
+        <div class="whatsappCall">
+            <div class="d-iB">
+                <a href="javascript:void(0);" class="whatsappButton">
+                    <img src="image/whatsapp icon.png" width="35" class="d-inline" alt="">
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <a href="tel:+919999127633">+91-9999127633</a>
+
+    </div>
+    <!-- call  -->
+
+
+    <div class="d-iB inCall2">
+        <div class="callingCall">
+            <div class="w-35 d-iB">
+                <a href="javascript:void(0);" class="callingButton">
+                    <img src="image/Call icon.png" alt="">
+                </a>
+            </div>
+
+        </div>
+        <a href="tel:+919999127633">+91-9999127633</a>
+
+    </div>
+
 </footer>
 
 
-
-{{--<div class="form-footer">
-                        <form action="">
-                            <div class="inner-addon left-addon f-mb-i">
-                                <i class="fa fa-user"></i>
-                                <input type="text" class="form-control" placeholder="Name...">
-                            </div>
-                            <div class="inner-addon left-addon f-mb-i">
-                                <i class="fa fa-envelope"></i>
-                                <input type="email" class="form-control" placeholder="Email...">
-                            </div>
-                            <div class="inner-addon left-addon f-mb-i">
-                                <i class="fa fa-phone"></i>
-                                <input type="number" class="form-control" placeholder="Phone">
-                            </div>
-                            <div class=" inner-addon left-addonf-mb-i">
-                                <i class="fa fa-comments-o"></i>
-
-                                <textarea name="" id="" class="form-control" rows="3" placeholder="message"></textarea>
-                            </div>
-                            <div class="inner-addon left-addon">
-                                <input type="submit" value="Submit" class="form-control submit">
-                            </div>
-                        </form>
-                    </div>--}}
+<style>
 
 
-
+</style>
 @include('common.enquiry')

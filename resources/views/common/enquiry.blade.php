@@ -12,18 +12,18 @@
                     <ul >
                         <li >
                             <span class="rouded-bullets">1</span>
-                            <a href="tel:+919999127629">+91 9999127629</a>
+                            <a href="tel:+919999127629">+91 9999127633</a>
                         </li>
                         <li >
                             <span class="rouded-bullets">2</span>
-                            <a href="tel:+919999127633">+91 9999127633</a>
+                            <a href="tel:+919999127633">info@vinayana.in</a>
 
                         </li>
-                        <li >
-                            <span class="rouded-bullets">3</span>
-                            <a href="tel:+919999127651">+91 9999127651</a>
+{{--                        <li >--}}
+{{--                            <span class="rouded-bullets">3</span>--}}
+{{--                            <a href="tel:+919999127651">+91 9999127651</a>--}}
 
-                        </li>
+{{--                        </li>--}}
                     </ul>
 
 
@@ -31,7 +31,7 @@
                     <div class="modalCall">
                         <hr>
                         <p><i class="fa fa-phone"></i>Call Us for details</p>
-                        <a href="tel:+919999127629"><h2>+91 9999127629</h2></a>
+                        <a href="tel:+919999127629"><h2>+91 9999127633</h2></a>
 
                     </div>
                 </div>
@@ -40,32 +40,30 @@
                 <div id="success" class="alert alert-success mt-5">
                     Successfully submitted data
                 </div>
-{{--                <div id="danger" class="alert alert-danger mt-5">--}}
-{{--                    Please validate all fields--}}
-{{--                </div>--}}
+
                 <div class="popUpContent">
-                    <form id="enquiry-form">
+                    <form id="enquiry-form" method="post">
                     <input type="hidden" value="{{csrf_token()}}" name="_token">
                         <div class="inner-addon left-addon">
                             <i class="fa fa-user"></i>
-                            <input name="name" type="text" class="form-control" placeholder="Name" />
+                            <input name="name" id="a-name" type="text" class="form-control" placeholder="Name" />
                         </div>
 
                         <div class="inner-addon left-addon">
                             <i class="fa fa-envelope"></i>
-                            <input name="email" type="email" class="form-control" placeholder="Email" />
+                            <input name="email" id="a-email" type="email" class="form-control" placeholder="Email" />
                         </div>
 
 
                         <div class="inner-addon left-addon">
                             <i class="fa fa-phone"></i>
-                            <input name="phone" type="text" class="form-control" placeholder="Phone" />
+                            <input name="phone" id="a-phone" type="text" class="form-control" placeholder="Phone" />
                         </div>
 
                         <div class="inner-addon left-addon">
                             <i class="fa fa-certificate"></i>
 
-                                <select name="course" class="form-control select_field_label"  name="course_tag" required="">
+                                <select name="course" id="a-courses" class="form-control select_field_label"  name="course_tag" required="">
                                     <option value="" disabled="disabled" selected="selected">Select</option>
                                     <optgroup label="Popular Courses">
                                         <option class="course_group"  value="BE/B.Tech">BE/B.Tech</option>
@@ -164,7 +162,7 @@
                         </div>
                         <div class="inner-addon left-addon">
                             <i class="fa fa-comments-o"></i>
-                            <textarea  name="message" id="" rows="4" placeholder="Message" class="form-control"></textarea>
+                            <textarea  name="message" id="a-message" rows="4" placeholder="Message" class="form-control"></textarea>
 
                         </div>
 
