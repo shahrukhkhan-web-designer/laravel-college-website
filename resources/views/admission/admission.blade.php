@@ -13,7 +13,7 @@
                                <div class="col-12">
                                    <input type="text" id="ad-name" placeholder="Name" name="name" value="{{old('name')}}" class="form-control">
                                    <span class="invalidField">
-@if($errors->has('name'))
+                                    @if($errors->has('name'))
                                     {{$errors->first('name')}}
                                     @endif
                                    </span>

@@ -57,4 +57,61 @@ class HomeController extends Controller
     public function feedback() {
         return view('feedback.feedback');
     }
+
+
+
+    public function agriculture() {
+        return view('pages.agriculture');
+    }
+    public function artshumanities() {
+        return view('pages.artshumanities');
+    }
+    public function commercebanking() {
+        return view('pages.commercebanking');
+    }
+    public function dental() {
+        return view('pages.dental');
+    }
+    public function design() {
+        return view('pages.design');
+    }
+    public function education() {
+        return view('pages.education');
+    }
+    public function engineering() {
+        return view('pages.engineering');
+    }
+    public function hotelmanagement() {
+        return view('pages.hotelmanagement');
+    }
+    public function informationtechnology() {
+        return view('pages.informationtechnology');
+    }
+    public function law() {
+        return view('pages.law');
+    }
+    public function management() {
+        return view('pages.management');
+    }
+    public function masscommunication() {
+        return view('pages.masscommunication');
+    }
+    public function medical() {
+        return view('pages.medical');
+    }
+    public function nursing() {
+        return view('pages.nursing');
+    }
+    public function paramedical() {
+        return view('pages.paramedical');
+    }
+    public function performingart() {
+        return view('pages.performingart');
+    }
+    public function pharmacy() {
+        return view('pages.pharmacy');
+    }
+    public function sciences() {
+        return view('pages.sciences');
+    }
 }

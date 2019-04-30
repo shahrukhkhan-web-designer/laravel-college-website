@@ -130,7 +130,7 @@
                     <tr>
                         <td>
                             <div class="futureBox">
-                                <a href="javascript:void(0)">
+                                <a href="agriculture-course">
                                 <div class="futureIcon">
                                     <img src="image/Icons/Agriculture-icon.png" alt="">
                                 </div>
@@ -144,7 +144,7 @@
 
                         <td>
                             <div class="futureBox">
-                                <a href="javascript:void(0)">
+                                <a href="art-humanities-course">
                                 <div class="futureIcon">
                                     <img src="image/Icons/Art.png" alt="">
                                 </div>
@@ -158,7 +158,7 @@
 
                         <td>
                             <div class="futureBox">
-                                <a href="javascript:void(0)">
+                                <a href="commerce-banking-course">
                                 <div class="futureIcon">
                                     <img src="image/Icons/Commers-Banking-Icon.png" alt="">
                                 </div>
@@ -172,7 +172,7 @@
 
                         <td>
                             <div class="futureBox">
-                                <a href="javascript:void(0)">
+                                <a href="dental-course">
                                 <div class="futureIcon">
                                     <img src="image/Icons/Dental-icon.png" alt="">
                                 </div>
@@ -186,7 +186,7 @@
 
                         <td>
                             <div class="futureBox">
-                                <a href="javascript:void(0)">
+                                <a href="design-course">
                                 <div class="futureIcon">
                                     <img src="image/Icons/Design-icon.png" alt="">
                                 </div>
@@ -202,7 +202,7 @@
                     <tr>
                         <td>
                             <div class="futureBox">
-                                <a href="javascript:void(0)">
+                                <a href="education-course">
                                 <div class="futureIcon">
                                     <img src="image/Icons/Education.png" alt="">
                                 </div>
@@ -216,7 +216,7 @@
 
                         <td>
                             <div class="futureBox">
-                                <a href="javascript:void(0)">
+                                <a href="engineering-course">
                                 <div class="futureIcon">
                                     <img src="image/Icons/Engineering-icon.png" alt="">
                                 </div>
@@ -230,7 +230,7 @@
 
                         <td>
                             <div class="futureBox">
-                                <a href="javascript:void(0)">
+                                <a href="hotel-management-course">
                                 <div class="futureIcon">
                                     <img src="image/Icons/Hotel-Management-icon.png" alt="">
                                 </div>
@@ -244,7 +244,7 @@
 
                         <td>
                             <div class="futureBox">
-                                <a href="javascript:void(0)">
+                                <a href="information-technology-course">
                                 <div class="futureIcon">
                                     <img src="image/Icons/Information-Technology-icon.png" alt="">
                                 </div>
@@ -258,7 +258,7 @@
 
                         <td>
                             <div class="futureBox">
-                                <a href="javascript:void(0)">
+                                <a href="law-course">
                                 <div class="futureIcon">
                                     <img src="image/Icons/Law.png" alt="">
                                 </div>
@@ -276,7 +276,7 @@
                     <tr>
                         <td>
                             <div class="futureBox">
-                                <a href="javascript:void(0)">
+                                <a href="management-course">
                                 <div class="futureIcon">
                                     <img src="image/Icons/Management-icon.png" alt="">
                                 </div>
@@ -290,7 +290,7 @@
 
                         <td>
                             <div class="futureBox">
-                                <a href="javascript:void(0)">
+                                <a href="mass-communication-course">
                                 <div class="futureIcon">
                                     <img src="image/Icons/Mass-Communication.png" alt="">
                                 </div>
@@ -304,7 +304,7 @@
 
                         <td>
                             <div class="futureBox">
-                                <a href="javascript:void(0)">
+                                <a href="medical-course">
                                 <div class="futureIcon">
                                     <img src="image/Icons/Medical.png" alt="">
                                 </div>
@@ -318,7 +318,7 @@
 
                         <td>
                             <div class="futureBox">
-                                <a href="javascript:void(0)">
+                                <a href="nursing-course">
                                 <div class="futureIcon">
                                     <img src="image/Icons/Nursing-icon.png" alt="">
                                 </div>
@@ -332,7 +332,7 @@
 
                         <td>
                             <div class="futureBox">
-                                <a href="javascript:void(0)">
+                                <a href="paramedical-course">
                                 <div class="futureIcon">
                                     <img src="image/Icons/Paramedical.png" alt="">
                                 </div>
@@ -350,7 +350,7 @@
                     <tr>
                         <td>
                             <div class="futureBox">
-                                <a href="javascript:void(0)">
+                                <a href="performing-art-course">
                                 <div class="futureIcon">
                                     <img src="image/Icons/Performing-Art.png" alt="">
                                 </div>
@@ -364,7 +364,7 @@
 
                         <td>
                             <div class="futureBox">
-                                <a href="javascript:void(0)">
+                                <a href="pharmacy-course">
                                 <div class="futureIcon">
                                     <img src="image/Icons/Pharmacy.png" alt="">
                                 </div>
@@ -378,7 +378,7 @@
 
                         <td>
                             <div class="futureBox">
-                                <a href="javascript:void(0)">
+                                <a href="sciences-course">
                                 <div class="futureIcon">
                                     <img src="image/Icons/Sciences-icon.png" alt="">
                                 </div>

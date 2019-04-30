@@ -95,9 +95,12 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="about-us">About Us</a>
 
-        <a href="programs">Programs</a>
+{{--        <a href="programs">Programs</a>--}}
+
         <a href="admission-form">Admissions</a>
         <a href="scholarship">Scholarships</a>
+
+
         <a href="contact-us">Contact Us</a>
 
 

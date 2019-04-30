@@ -124,11 +124,13 @@ section.about-us {
     min-height: 350px;
 }
 .aboutCard {
-    padding: 20px 10px;
-    min-height: 150px;
+
+    padding: 20px 15px;
+    min-height: 175px;
     transition: all .6s ease-in-out;
-    box-shadow:1px 1px 10px 1px #093a654f
+    box-shadow:0px 0px 10px 0px #aeb1b44f
 }
+
 .aboutCard:hover {
     transform: scale(1.04);
     box-shadow: 1px 1px 10px 1px #093a65;
@@ -493,7 +495,7 @@ section.Enquiry2019 {
 }
 .showFormTag {
     position: absolute;
-    top: 87px;
+    top: 50px;
     left: -40px;
     z-index: 999;
     transition: all .5s linear;
@@ -517,9 +519,9 @@ section.Enquiry2019 {
 .inCall {
 
     position: fixed;
-    top: 313px;
+    top: 277px;
     right: -135px;
-    background: #fff;
+    background: #f6f6f6f0;
     padding: 8px 5px 10px 5px;
     margin-left: -3px;
     max-height: 35px;
@@ -550,12 +552,18 @@ section.Enquiry2019 {
     z-index: 999;
 
 }
+.mb-10 {
+    margin-bottom: 10px;
+}
+.valid {
+    border:1px solid green;
+}
 .inCall2 {
 
     position: fixed;
-    top: 351px;
+    top: 316px;
     right: -135px;
-    background: #fff;
+    background: #f6f6f6f0;
     padding: 8px 5px 10px 5px;
     margin-left: -3px;
     max-height: 35px;
@@ -1499,6 +1507,18 @@ main.programTAb {
     margin-top: -10px;
 }
 
+/*CommonSection*/
+
+.commonSection {
+    padding-top: 50px;
+    padding-bottom: 40px;
+
+}
+
+.commonContent{
+    padding-top: 13px;
+}
+
 /* Responsive */
 
 
@@ -1582,6 +1602,7 @@ main.programTAb {
     .firstNavLeft {
         width:100%;
         float:none;
+        text-align: center;
     }
     .firstNavRight {
         width:100%;

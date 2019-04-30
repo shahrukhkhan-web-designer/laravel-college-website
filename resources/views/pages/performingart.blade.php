@@ -4,7 +4,7 @@
 @section('content')
     <section class="commonSection">
         <div class="container">
-            <h2>Information Technology</h2>
+            <h2>Performing Art</h2>
             <div class="row">
                 <div class="col-md-9">
                     <div class="commonContent">
