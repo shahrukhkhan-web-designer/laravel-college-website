@@ -435,43 +435,6 @@ ul .rouded-bullets {
 }
 /* Enquiry Section */
 
-section.EnqueryLinks {
-    position: fixed;
-    top: 50%;
-    right: 0;
-    background: #c0f1c0;
-    z-index:101;
-}
-
-section.showcase {
-    position: relative;
-}
-.showcaseContent {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(0,0,0,0.5);
-    padding: 20px;
-    text-align: center;
-
-}
-.showcaseContentInside h1 {
-    color:#fff;
-    font-size: 35px;
-    font-weight: 700;
-    letter-spacing: .6px;
-}
-.showcaseContentInside p {
-    color:#fff;
-    font-weight: 400;
-    font-size: 15px;
-    text-align: justify;
-    text-align-last: left;
-    letter-spacing: .3px;
-}
-
-/* Enquiry Fixed form */
 
 section.Enquiry2019 {
     position: fixed;
@@ -495,7 +458,7 @@ section.Enquiry2019 {
 }
 .showFormTag {
     position: absolute;
-    top: 50px;
+    top: 95px;
     left: -40px;
     z-index: 999;
     transition: all .5s linear;
@@ -519,7 +482,7 @@ section.Enquiry2019 {
 .inCall {
 
     position: fixed;
-    top: 277px;
+    top: 323px;
     right: -135px;
     background: #f6f6f6f0;
     padding: 8px 5px 10px 5px;
@@ -561,7 +524,7 @@ section.Enquiry2019 {
 .inCall2 {
 
     position: fixed;
-    top: 316px;
+    top: 363px;
     right: -135px;
     background: #f6f6f6f0;
     padding: 8px 5px 10px 5px;
@@ -589,6 +552,48 @@ section.Enquiry2019 .form2019 {
 .whatsappCall .d-iB , .callingCall .d-iB{
     display: inline-block;
 }
+
+
+
+section.EnqueryLinks {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    background: #c0f1c0;
+    z-index:101;
+}
+
+section.showcase {
+    position: relative;
+}
+.showcaseContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+    text-align: center;
+
+}
+.showcaseContentInside h1 {
+    color:#fff;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: .6px;
+}
+.showcaseContentInside p {
+    color:#fff;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+    text-align-last: left;
+    letter-spacing: .3px;
+}
+
+/* Enquiry Fixed form */
+
+
 section.offeringCourses {
     background: #dcdcdc;
     padding: 30px;
@@ -1517,6 +1522,34 @@ main.programTAb {
 
 .commonContent{
     padding-top: 13px;
+}
+
+.commonSection h2 {
+
+    margin-bottom: 0;
+    font-size: 24px;
+    letter-spacing: 0.3px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.commonContent ul {
+    list-style: disc;
+    margin-left:25px;
+    list-style-position: inside;
+    margin-bottom: 8px;
+}
+.commonContent p {
+    text-align:justify;
+}
+.commonContent h3 {
+    font-size: 20px;
+    letter-spacing: .3px;
+    font-weight: 500;
+}
+.commonContent h4 {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: .2px;
 }
 
 /* Responsive */

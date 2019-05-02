@@ -125,7 +125,7 @@
                 </tr>
                 <tr>
                     <td>Telephone Number: </td>
-                    <td>+919654995140</td>
+                    <td>+91-9999127633</td>
                 </tr>
                 <tr>
                     <td>Working Days :</td>

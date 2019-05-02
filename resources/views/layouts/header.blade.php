@@ -23,10 +23,10 @@
                     <a class="nav-link" href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+                    <a class="nav-link" href="   https://twitter.com/Vinayana8"><i class="fa fa-twitter"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+                    <a class="nav-link" href="https://www.linkedin.com/in/vinayana-in-a5a7b4185/"><i class="fa fa-linkedin"></i></a>
                 </li>
                 <li class="nav-item">
                     <button class="nav-link applyNow" data-target="#myModal" data-toggle="modal">Apply Now</button>
@@ -56,9 +56,9 @@
 
 
 
-                <li class="nav-item">
-                    <a class="nav-link" href="scholarship">Scholarships</a>
-                </li>
+{{--                <li class="nav-item">--}}
+{{--                    <a class="nav-link" href="scholarship">Scholarships</a>--}}
+{{--                </li>--}}
                 <li class="nav-item">
                     <a class="nav-link" href="admission-form">Admissions</a>
                 </li>
