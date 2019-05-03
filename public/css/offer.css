@@ -1,0 +1,239 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width:100%;
+
+}
+.danger-bg {
+    background: rgb(71, 1, 1);
+}
+.danger-text {
+    color:rgb(71, 1, 1);
+}
+header {
+    padding: 20px 0 40px 0;
+    background: rgb(71, 1, 1);
+
+}
+header img {
+    max-height: 70px;
+}
+img.vinayana {
+    max-height: 65px;
+}
+.rel {
+    position: relative;
+    height: 400px;
+}
+.f-right {
+    float:right;
+}
+.r-text {
+    color:rgb(71, 1, 1);
+}
+.banner {
+    margin-top: -30px;
+    outline: 4px solid #fff;
+    background: url(../image/offer/banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    z-index: 1001;
+    box-shadow: 0px 15px 20px 0px #0101019c;
+
+}
+.nsat {
+    position: relative;
+    padding-top:30px;
+}
+.offer {
+    position: relative
+
+}
+
+.offer h5 {
+    position: absolute;
+    top: 050%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 65%;
+    text-transform: uppercase;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: .3px;
+    font-weight: 500;
+    color: #fff;
+}
+h1 {
+    font-size:100px;
+    font-weight: 800;
+    letter-spacing: .5px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.nsat p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 34px;
+
+    margin: 0 auto;
+    line-height: 32px;
+}
+.nsat h2 {
+    font-size: 80px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 0;
+    color:rgb(71, 1, 1);
+}
+
+section.uniShowOff, section.showUni {
+    padding:20px;
+    margin-top:30px;
+    background:rgb(71, 1, 1);
+    margin-bottom: 30px;
+}
+
+section.uniShowOff h4, section.showUni h4 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #d1a63a;
+    line-height: 17px;
+}
+section.uniShowOff p, section.showUni p {
+    font-size: 14px;
+    margin: 0;
+    color: #fff;
+    line-height: 20px;
+    padding-left: 4px;
+    text-align: center;
+}
+section.uniShowOff .col-4 {
+    padding:0;
+    border-right:1px solid #fff;
+    padding-right:3px;
+    padding-left:3px;
+}
+.br-none {
+    border-right:0!important;
+}
+.center {
+    text-align: center;
+}
+.ptl10-15 {
+    padding-top: 10px;
+    padding-left: 15px;
+}
+h4 .fa {
+    font-size: 14px;
+    text-align: center;
+    display: inherit;
+    margin-bottom: -10px;
+}
+
+.card img {
+    max-height:100px;
+}
+.card table tr td, .showUni table tr td {
+    text-align: center;
+    width:16.5%;
+    display: inline-block;
+    padding: 10px;
+    /* border-right:2px solid #fff; */
+}
+.nsatContent {
+    padding:10px;
+}
+.exam {
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+.exam p {
+    margin-bottom: 0;
+
+}
+.card {
+    padding:5px 10px 15px 10px;
+    box-shadow: 0 5px 20px -10px;
+}
+footer {
+    padding:10px;
+}
+footer p {
+    color:#fff;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+
+/* Responsive */
+@media(max-width:767px) {
+    .nsat p {
+        font-size: 18px;
+    }
+    section.uniShowOff table tr td{
+        width:16.5%;
+        display:inline-block;
+    }
+    .card table tr td, .showUni table tr td  {
+        width:33%;
+        display: inline-block;
+        padding: 10px;
+    }
+}
+
+@media(max-width:570px) {
+    .f-right{
+        float:none;
+    }
+    section.uniShowOff table tr td, .showUni table tr td {
+        width:50%;
+        display:inline-block;
+    }
+    .nsat h2 {
+        font-size: 20px;
+    }
+
+    .nsat p {
+        width:auto;
+        display:block;
+    }
+    .nsat h1 {
+
+        font-size: 26px;
+    }
+
+    section.showUni p {
+        font-size: 10px;
+        line-height: normal;
+    }
+    section.showUni h4 {
+        font-size: 13px;
+        line-height: normal;
+    }
+}
+
+@media(max-width:480px) {
+    section.uniShowOff h4 {
+        font-size: 12px;
+
+        line-height: 14px;
+    }
+    section.uniShowOff p {
+        font-size: 11px;
+        line-height: 14px;
+        padding-left: 4px;
+    }
+    .card table tr td {
+        width:50%;
+        display: inline-block;
+        padding: 10px;
+    }
+
+}
